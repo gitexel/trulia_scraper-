@@ -70,5 +70,4 @@ save_path = os.path.join('data', file_name + '.csv')
 
 # save to csv
 df.to_csv(save_path)
-
 print('result saved to %s' % save_path)
